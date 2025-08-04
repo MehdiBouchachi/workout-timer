@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 🏋️ Workout Timer – React Exercise Duration Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  About
 
-## Available Scripts
+**Workout Timer** is an interactive React app that calculates the total duration of a workout session based on your chosen routine, sets, speed, and break length. It features real-time updates, ambient sound toggles, and dynamic visuals — making it a fun, beginner-to-intermediate project for React developers.
 
-In the project directory, you can run:
+This project focuses on deepening your understanding of **`useState`**, **`useEffect`**, **`useMemo`**, sound effects, and time-based updates.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 👉 **Workout Duration Calculator**  
+  Choose workout type, number of sets, speed, and break duration — and get real-time duration output.
 
-### `npm test`
+- 👉 **Sound Toggle**  
+  Toggle workout click sounds on or off using a sound button.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 👉 **Live Clock**  
+  Time of day updates every second to help suggest different workout intensities (e.g., more exercises in the morning).
 
-### `npm run build`
+- 👉 **Memoized Workout Logic**  
+  The number of exercises adjusts based on time of day using `useMemo`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 👉 **Beautiful UI**  
+  Styled with gradients, glassmorphism-like effects, and responsive layout.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  What You'll Learn
 
-### `npm run eject`
+- `useState`, `useEffect`, and `useMemo` in practice  
+- Managing sound effects and side effects in React  
+- Working with time and formatted output  
+- Component structure and prop management  
+- Updating `document.title` dynamically
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##  Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React 18**
+- **JavaScript (ES6+)**
+- **CSS** (vanilla, responsive)
+- **Audio API** (HTML5 `<audio>`)
